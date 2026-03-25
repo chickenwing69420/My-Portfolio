@@ -766,49 +766,15 @@ body {
 </div><!-- end .page -->
 
 <script>
-/* ============================================================
-   ██████████████████████████████████████████████████████████
-   ██                                                       ██
-   ██   EDIT YOUR CONTENT BELOW — ONLY YOU CHANGE THESE    ██
-   ██                                                       ██
-   ██████████████████████████████████████████████████████████
-
-   HOW TO ADD VIDEOS:
-   - Go to your YouTube video
-   - Click Share → Embed
-   - Copy ONLY the video ID from the src (the part after /embed/)
-   - Add a new entry to the VIDEOS array below like the example
-
-   HOW TO UPDATE DISCORD:
-   - Replace the DISCORD_LINK value with your discord.gg link
-   ============================================================ */
 
 const CONFIG = {
-
-  // ── YOUR DISCORD LINK ──────────────────────────────────────
-  // Replace with your real discord.gg/... or discord.com/users/... link
   DISCORD_LINK: "https://discord.gg/8ntCV3cQMe",
-
-  // ── YOUR SKILL VIDEOS ─────────────────────────────────────
-  // Add YouTube video IDs here.
-  // Leave VIDEOS as an empty array [] if you have none yet.
-  // Example entry:
-  //   { id: "dQw4w9WgXcQ", label: "Combat System - Game Name" }
-  //
-  // To get the ID: youtube.com/watch?v=XXXXXXXX  ← that XXXXXXXX is the id
   VIDEOS: [
     // { id: "YOUR_VIDEO_ID_HERE",  label: "Combat System - Example Game" },
     // { id: "YOUR_VIDEO_ID_2",     label: "Move SFX Showcase" },
   ],
 
 };
-
-/* ============================================================
-   ████████████████████████████████████████████████████████
-   ██  STOP EDITING HERE — everything below is the site  ██
-   ████████████████████████████████████████████████████████
-   ============================================================ */
-
 // ── CURSOR ──────────────────────────────────────────────────
 const cursor = document.getElementById('cursor');
 const cursorDot = document.getElementById('cursor-dot');
